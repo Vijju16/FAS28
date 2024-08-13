@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C6BC0"
+    android:fitsSystemWindows="true"
+    tools:context=".choose_option">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="80dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/faculty" />
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faculty"
+        android:textSize="20sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="260dp"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="420dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/student" />
+
+    <Button
+        android:id="@+id/reg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student"
+        android:textSize="20sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="600dp"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

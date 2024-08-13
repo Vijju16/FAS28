@@ -13,6 +13,18 @@
         android:theme="@style/Theme.FAS"
         tools:targetApi="31">
         <activity
+            android:name=".choose_option"
+            android:exported="false"
+            android:theme="@style/Theme.FAS" />
+        <activity
+            android:name=".faculty_login"
+            android:exported="false"
+            android:theme="@style/Theme.FAS" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.FAS" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

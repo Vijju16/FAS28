@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C6BC0"
+    android:fitsSystemWindows="true"
+    tools:context=".faculty_login">
+    
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="300dp"
+        android:layout_height="360dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:layout_marginTop="20dp"
+            tools:ignore="RtlHardcoded"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="#757575"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password1"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:layout_marginTop="20dp"
+            tools:ignore="RtlHardcoded"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_password1"
+            android:importantForAutofill="no"
+            android:inputType="textWebPassword"
+            android:minHeight="48dp"
+            android:textColorHint="#757575"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login1"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password1"
+            android:textSize="18sp"
+            android:layout_gravity="left"
+            tools:ignore="RtlHardcoded"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+        
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
