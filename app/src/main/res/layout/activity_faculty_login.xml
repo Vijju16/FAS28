@@ -8,26 +8,27 @@
     android:background="#5C6BC0"
     android:fitsSystemWindows="true"
     tools:context=".faculty_login">
-    
+
     <LinearLayout
-        android:id="@+id/container"
+        android:id="@+id/main"
         android:layout_width="300dp"
         android:layout_height="360dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginStart="0dp"
         android:layout_marginTop="200dp"
         android:background="@color/white"
-        android:layout_gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="24dp"
+        tools:ignore="TextSizeCheck">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
             android:text="@string/email"
             android:textSize="20sp"
-            android:gravity="left"
-            android:layout_marginTop="20dp"
-            tools:ignore="RtlHardcoded"/>
+            tools:ignore="RtlHardcoded" />
 
         <EditText
             android:layout_width="match_parent"
@@ -36,16 +37,16 @@
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
-            android:textColorHint="#757575"/>
+            android:textColorHint="#757575" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
             android:text="@string/password1"
             android:textSize="20sp"
-            android:gravity="left"
-            android:layout_marginTop="20dp"
-            tools:ignore="RtlHardcoded"/>
+            tools:ignore="RtlHardcoded" />
 
         <EditText
             android:layout_width="match_parent"
@@ -54,25 +55,24 @@
             android:importantForAutofill="no"
             android:inputType="textWebPassword"
             android:minHeight="48dp"
-            android:textColorHint="#757575"/>
+            android:textColorHint="#757575" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/login1"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp"
             android:layout_gravity="center"
-            />
+            android:layout_marginTop="20dp"
+            android:text="@string/login1"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
             android:text="@string/forgot_password1"
             android:textSize="18sp"
-            android:layout_gravity="left"
-            tools:ignore="RtlHardcoded"
-            android:layout_marginTop="15dp"/>
+            tools:ignore="RtlHardcoded" />
 
     </LinearLayout>
 
