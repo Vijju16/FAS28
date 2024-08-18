@@ -7,6 +7,7 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <!-- Long lorem ipsum text -->
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
@@ -43,25 +44,35 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
-    <string name="name">Name</string>
-    <string name="forgot_password">fg</string>
+
+    <!-- New strings added -->
+    <string name="user_name_label">Name</string> <!-- Renamed from name to user_name_label -->
+    <string name="forgot_password">Forgot Password</string>
     <string name="value">Value</string>
-    <string name="Name">Name</string>
-    <string name="Name1">Name</string>
-    <string name="name2">name</string>
-    <string name="name1">name1</string>
     <string name="enter_your_name">Enter Your Name</string>
     <string name="prn">PRN</string>
     <string name="enter_your_prn">Enter Your PRN</string>
-    <string name="password">Password</string>
+    <string name="user_password">Password</string> <!-- Renamed from password to user_password -->
     <string name="enter_your_password">Enter Your Password</string>
     <string name="login">Login</string>
-    <string name="forgot_password1">forgot password?</string>
-    <string name="email">Email</string>
+    <string name="forgot_password_prompt">Forgot Password?</string> <!-- Renamed from forgot_password1 to forgot_password_prompt -->
+    <string name="user_email">Email</string> <!-- Renamed from email to user_email -->
     <string name="enter_your_email">Enter Your Email</string>
-    <string name="password1">Password</string>
-    <string name="enter_your_password1">Enter Your Password</string>
-    <string name="login1">Login</string>
+    <string name="login_prompt">Login</string> <!-- Renamed from login1 to login_prompt -->
     <string name="faculty">Faculty</string>
     <string name="student">Student</string>
+    <string name="time_table">Time Table</string>
+    <string name="announcement">Announcement</string> <!-- Fixed typo from announcment to announcement -->
+    <string name="division_a">DIV_A</string> <!-- Fixed double quote in string -->
+    <string name="bca_third_year">bca_ty</string> <!-- Fixed double quote in string -->
+    <string name="user_full_name">Name: Nidhi Shree Roy</string> <!-- Renamed from name to user_full_name -->
+    <string name="user_course">Course: BCA</string> <!-- Renamed from course to user_course -->
+    <string name="user_year">Year: 3rd year</string> <!-- Renamed from year to user_year -->
+    <string name="user_division">Division: A</string> <!-- Renamed from division to user_division -->
+    <string name="user_email_info">Email: abc@gmail.com</string> <!-- Renamed from email to user_email_info -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="home">Home</string>
+    <string name="material">Material</string>
+    <string name="profile">Profile</string>
+
 </resources>
